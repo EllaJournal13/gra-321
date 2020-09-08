@@ -1,7 +1,14 @@
-* {
-background-color:pink;
+body
+{
+background-color: #F9D0C2;
 }
 
-h1 {
+h1
+{
+  font-family: 'Merriweather', serif;
+}
 
+ul
+{
+  font-family: 'Merriweather', serif;
 }
