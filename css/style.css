@@ -6,9 +6,13 @@ background-color: #F9D0C2;
 h1
 {
   font-family: 'Merriweather', serif;
+  font-weight:bold;
 }
 
 ul
 {
   font-family: 'Merriweather', serif;
+  font-weight:normal;
+  font-style:italic;
+  font-size:18;
 }
