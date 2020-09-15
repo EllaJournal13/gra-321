@@ -14,9 +14,10 @@ h2
 {
   font-family: 'Merriweather', serif;
   font-weight:normal;
-  font-size: 20;
+  font-size: 12;
   color: #666666; /*grey*/
 }
+
 ul
 {
   font-family: 'Merriweather', serif;
@@ -24,4 +25,19 @@ ul
   font-style:italic;
   font-size:24;
   color: #666666; /*grey*/
+}
+
+a
+{
+  font-family: 'Merriweather', serif;
+  font-weight:normal;
+  font-style:italic;
+  font-size:16px;
+  color: #666666; /*grey*/
+}
+
+.button
+{
+  background-color: white;
+  padding:10px;
 }
