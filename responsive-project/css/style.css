@@ -1,7 +1,27 @@
-* {
-
+body
+{
+background-color: #F9D0C2;
 }
 
-h1 {
+h1
+{
+  font-family: 'Merriweather', serif;
+  font-weight:bold;
+  color:#666666; /*grey*/
+}
 
+h2
+{
+  font-family: 'Merriweather', serif;
+  font-weight:normal;
+  font-size: 20;
+  color: #666666; /*grey*/
+}
+ul
+{
+  font-family: 'Merriweather', serif;
+  font-weight:normal;
+  font-style:italic;
+  font-size:24;
+  color: #666666; /*grey*/
 }
