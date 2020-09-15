@@ -29,13 +29,13 @@ a
 
 button
 {
-  background-color: yellow;
+  background-color: white;
   border: none;
   font-family:Merriweather,serif;
   padding:10px;
 }
 
-button:hover
+button.button1:hover
 {
   padding:15px;
 }
