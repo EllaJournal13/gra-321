@@ -27,8 +27,10 @@ a
   color: #666666; /*grey*/
 }
 
-.button
+button
 {
   background-color: white;
+  border: none;
+  font-family:Merriweather,serif;
   padding:10px;
 }
