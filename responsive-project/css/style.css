@@ -1,27 +1,44 @@
 body
 {
-background-color: #F9D0C2;
+background-color: #EEDDDB; /*light pink*/
+font-family: 'Merriweather','Times New Roman', serif;
+/*if(merriweather=false){font-family=timesnewroman;}*/
+color:#B4776C; /*mauve*/
+margin:0px;
+padding:0px;
 }
 
-h1
+header
 {
-  font-family: 'Merriweather', serif;
-  font-weight:bold;
-  color:#666666; /*grey*/
+  padding:10px 20px;
+  display: flex;
+  flex-direction:row;
 }
 
-h2
-{
-  font-family: 'Merriweather', serif;
-  font-weight:normal;
-  font-size: 12;
-  color: #666666; /*grey*/
-}
 ul
 {
-  font-family: 'Merriweather', serif;
   font-weight:normal;
   font-style:italic;
-  font-size:24;
-  color: #666666; /*grey*/
+  font-size:12px;
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+
+li
+{
+  display:inline-block;
+  margin-right: 20px;
+}
+
+a
+{
+  color:#B4776C; /*mauve*/
+}
+
+a:hover
+{
+  color:#B4776C; /*mauve*/
+  font-style:normal;
+  text-decoration:none;
 }

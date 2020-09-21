@@ -1,11 +1,11 @@
 body
 {
-background-color: #EEDDDB; /*light pink*/
-font-family: 'Merriweather','Times New Roman', serif;
-/*if(merriweather=false){font-family=timesnewroman;}*/
-color:#B4776C; /*mauve*/
-margin:0px;
-padding:0px;
+  background-color: #EEDDDB; /*light pink*/
+  font-family: 'Merriweather','Times New Roman', serif;
+  /*if(merriweather=false){font-family=timesnewroman;}*/
+  color:#B4776C; /*mauve*/
+  margin:0px;
+  padding:0px;
 }
 
 header
