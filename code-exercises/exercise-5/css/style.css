@@ -126,7 +126,7 @@ h3
   color:black; /*mauve*/
   margin:0px;
   padding:0px;
-  font-size:45pt;
+  font-size:32pt;
   font-weight:600; /*demi*/
 }
 
@@ -148,4 +148,41 @@ p
   padding:0px;
   font-size:10pt;
   font-weight:500; /*medium*/
+}
+
+.wrapper
+{
+  display:grid;
+  grid-template-columns: 60% 40%;
+}
+
+.mag-image
+{
+  background-color:white;
+  background-image:url(../../img/bathroom.png);
+  background-size:cover;
+}
+
+.wrapper-grid
+{
+  background-color:salmon;
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.wrapper-text
+{
+  background-color:teal;
+  grid-gap:10px;
+}
+
+.wrapper-text>div:nth-child(odd)
+{
+  background-color:purple;
+}
+
+.wrapper-body
+{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
 }
