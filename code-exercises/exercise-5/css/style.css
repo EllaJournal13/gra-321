@@ -118,3 +118,34 @@ button.hover:hover
   background-size: cover;
 
 }
+
+h3
+{
+  font-family: 'Futura PT','Arial', sans-serif;
+  /*if(FuturaPT=false){font-family=Arial;}*/
+  color:black; /*mauve*/
+  margin:0px;
+  padding:0px;
+  font-size:45pt;
+  font-weight:600; /*demi*/
+}
+
+h2
+{
+  font-family: 'Garamond', 'Times New Roman', serif;
+  color: black;
+  margin:0px;
+  padding:0px;
+  font-size:18pt;
+  font-weight:bold;
+}
+
+p
+{
+  font-family: 'Futura PT', 'Arial', sans-serif;
+  color:black;
+  margin:0px;
+  padding:0px;
+  font-size:10pt;
+  font-weight:500; /*medium*/
+}
