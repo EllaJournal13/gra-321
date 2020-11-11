@@ -1,0 +1,107 @@
+body
+{
+background-color: white;
+margin:0px;
+padding:0px;
+}
+
+h1
+{
+  font-family: 'Josefin Sans', 'Arial', sans-serif;
+  color: #1C4010; /*dark green*/
+  font-weight: 700; /*bold*/
+  font-size: 32px;
+}
+
+h2
+{
+  font-family:'Josefin Sans', 'Arial', sans-serif;
+  color: #1C4010; /*dark green*/
+  font-weight: 700; /*bold*/
+  font-size: 24px;
+}
+
+h3
+{
+  font-family:'Josefin Sans', 'Arial', sans-serif;
+  color: #1C4010; /*dark green*/
+  font-weight: 600; /*semi-bold*/
+  font-size: 18px;
+}
+
+p
+{
+  font-family: 'Commissioner', 'Arial', sans-serif;
+  color: black;
+  font-weight: 500; /*medium*/
+  font-size: 16px;
+}
+
+p.description
+{
+  font-weight: 400; /*regular*/
+  font-size: 12px;
+}
+
+.sections
+{
+  display:flex;
+  flex-direction:column;
+  width:480px;
+  background:blue;
+}
+.home
+{
+  display:grid;
+  grid-template-rows:1fr 2fr;
+  grid-template-columns:10% auto;
+  height:10px;
+}
+
+.menu-icon
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:46px 28px;
+  background:pink;
+  grid-column:1/2;
+  grid-row:1/2;
+  z-index:10;
+}
+
+img.one-of-three
+{
+  height:9px;
+  margin-bottom:9px;
+  /*background:white;*/
+}
+img.one-of-three.bottom
+{
+  margin-bottom:0;
+}
+
+div.logo
+{
+  background:yellow;
+  grid-column:1/3;
+  grid-row:1/2;
+  padding:49px auto;
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+img.logo
+{
+  background:white;
+  height:150px;
+}
+
+.banner-img
+{
+  background:purple;
+  grid-row:2/3;
+}
