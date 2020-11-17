@@ -1,6 +1,6 @@
 body
 {
-background-color: white;
+background-color: #F5F5D5;
 margin:0px;
 padding:0px;
 }
@@ -65,7 +65,6 @@ p.description
   display:flex;
   flex-direction:column;
   height:100%;
-  object-fit:contain;
 }
 
 .box.menu
@@ -92,19 +91,53 @@ p.description
 .logo
 {
   width:300px;
+  height:150px;
+  object-fit:cover;
+  margin:50px 0;
+}
+
+.navigator
+{
+  display:flex;
+  flex-direction:row;
+  margin:0;
+  padding:0;
+}
+
+.navigator > div
+{
+  margin:0;
+  padding:0;
+}
+.nav
+{
+  text-align:center;
+  font-size:18px;
+}
+a
+{
+  display:inline-block;
+  margin:10px;
+  text-decoration:none;
+}
+
+a:hover
+{
+  opacity:.5;
 }
 
 .head-img-box
 {
   width:100%;
-  min-height:340px;
+  /*min-height:340px;*/
   object-fit:cover;
 }
 
 .header-img
 {
   width:100%;
-  min-height:340px;
+  max-height:500px;
+  /*min-height:340px;*/
   object-fit:cover;
 }
 
@@ -112,9 +145,8 @@ p.description
 {
   grid-column:1/2;
 
-  display:grid;
-  grid-template-columns:1fr 1fr 5fr 1fr 1fr 1fr;
-  width:minmax(480px,100%);
+  display:inline-grid;
+  grid-template-columns:1fr 1fr 7fr 1fr 1fr 1fr;
   grid-column-gap:10px;
 }
 
@@ -133,7 +165,7 @@ p.description
 
   display:grid;
   grid-template-columns:5fr 1fr;
-  min-width:480px;
+  min-width:300px;
   grid-column-gap:10px;
 }
 
@@ -258,9 +290,15 @@ p.description
 .about-img
 {
   height:415px;
-  width:480px;
+  width:100%;
+  max-width:480px;
   object-fit:cover;
   margin:10px;
+}
+
+.img-box
+{
+  overflow:hidden;
 }
 
 .about-item
