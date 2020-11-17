@@ -149,10 +149,8 @@ a:hover
 .box-content
 {
   /*grid-column:1/2;*/
-  justify-content:center;
-
-  display:inline-grid;
-  grid-template-columns:1fr 1fr 5fr 1fr 1fr 1fr;
+  display:grid;
+  grid-template-columns:1fr 1fr 10fr 1fr 1fr 1fr;
   grid-column-gap:10px;
 }
 
@@ -177,8 +175,23 @@ a:hover
 
 .max-width
 {
-  max-width:1000px;
   margin:30px;
+}
+
+@media screen and (max-width:1200px)
+{
+  .max-width
+  {
+    max-width:1000px;
+  }
+}
+
+@media screen and (min-width:1200px)
+{
+  .max-width
+  {
+    max-width:500px;
+  }
 }
 
 .words
