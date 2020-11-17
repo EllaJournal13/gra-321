@@ -62,7 +62,10 @@ p.description
 
 .box.home
 {
-
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  object-fit:contain;
 }
 
 .box.menu
@@ -89,7 +92,20 @@ p.description
 .logo
 {
   width:300px;
-  object-fit:contain;
+}
+
+.head-img-box
+{
+  width:100%;
+  min-height:340px;
+  object-fit:cover;
+}
+
+.header-img
+{
+  width:100%;
+  min-height:340px;
+  object-fit:cover;
 }
 
 .box-content
@@ -98,7 +114,7 @@ p.description
 
   display:grid;
   grid-template-columns:1fr 1fr 5fr 1fr 1fr 1fr;
-  width:minmax(1080px,100%);
+  width:minmax(480px,100%);
   grid-column-gap:10px;
 }
 
