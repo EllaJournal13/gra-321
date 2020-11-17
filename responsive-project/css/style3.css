@@ -62,7 +62,7 @@ p.description
 
 .box.home
 {
-  background:pink;
+
 }
 
 .box.menu
@@ -84,6 +84,12 @@ p.description
 {
   display:flex;
   flex-direction:column;
+}
+
+.logo
+{
+  width:300px;
+  object-fit:contain;
 }
 
 .box-content
@@ -113,7 +119,6 @@ p.description
   grid-template-columns:5fr 1fr;
   min-width:480px;
   grid-column-gap:10px;
-  padding-left:5px;
 }
 
 .words
