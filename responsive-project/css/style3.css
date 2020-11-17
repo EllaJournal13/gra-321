@@ -314,8 +314,9 @@ a:hover
   flex-direction:row;
   flex-wrap:wrap;
   padding:5px;
-  justify-content:space-between;
+  justify-content:center;
   align-items:flex-start;
+  margin:auto;
 }
 
 .location-item
