@@ -11,6 +11,7 @@ h1
   color: #1C4010; /*dark green*/
   font-weight: 700; /*bold*/
   font-size: 32px;
+  text-align:center;
 }
 
 h2
@@ -19,6 +20,7 @@ h2
   color: #1C4010; /*dark green*/
   font-weight: 700; /*bold*/
   font-size: 24px;
+  text-align:center;
 }
 
 h3
@@ -62,29 +64,56 @@ p.description
 {
   background:pink;
 }
+
 .box.menu
 {
   /*background:white;*/
   display:grid;
   grid-template-columns: 1fr;
   grid-row-gap:30px;
+  margin:5% 10%;
 }
+
 .box.locations
 {
-  background:salmon;
+  display:flex;
+  flex-direction:column;
 }
+
 .box.about
 {
-  background:purple;
+  display:flex;
+  flex-direction:column;
 }
 
 .box-content
 {
   grid-column:1/2;
+
   display:grid;
   grid-template-columns:1fr 1fr 5fr 1fr 1fr 1fr;
-  width:100%;
-  grid-gap:10px;
+  width:minmax(1080px,100%);
+  grid-column-gap:10px;
+}
+
+.box-flex
+{
+  grid-column:1/2;
+
+  display:flex;
+  flex-direction:column;
+  padding-left:5px;
+}
+
+.sandwich
+{
+  grid-column:1/2;
+
+  display:grid;
+  grid-template-columns:5fr 1fr;
+  min-width:480px;
+  grid-column-gap:10px;
+  padding-left:5px;
 }
 
 .words
@@ -143,6 +172,17 @@ p.description
   grid-column:6/7;
 }
 
+.full-row
+{
+  grid-column:1/7;
+}
+
+.right
+{
+  display:flex;
+  justify-content:flex-end;
+}
+
 .hot-or-cold
 {
   height:12px
@@ -152,6 +192,67 @@ p.description
 {
   justify-content:flex-start;
 }
+
+.location-elements
+{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin:0;
+  padding:5px;;
+  align-items:center;
+  justify-content:center;
+}
+
+.location-img
+{
+  height:300px;
+  width:300px;
+  object-fit:cover;
+}
+
+.about-elements
+{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  padding:5px;
+  justify-content:center;
+  align-items:center;
+}
+
+.location-item
+{
+  margin: 0 15px 15px 15px;
+}
+
+.center
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.about-img
+{
+  height:415px;
+  width:480px;
+  object-fit:cover;
+  margin:10px;
+}
+
+.about-item
+{
+  max-width:480px;
+  margin:0 15px;
+}
+
+.pink
+{
+  background:pink;
+}
+
 
 /*.sections
 {
